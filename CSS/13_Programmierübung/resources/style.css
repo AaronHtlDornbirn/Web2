@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+}
+
+.flexbox {
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grün {
+    background-color: yellowgreen;
+    width: 30px;
+    height: 30px;
+}
+
+.links {
+    width: 50vw;
+}
+
+.rechts {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: deepskyblue;
+    position: relative;
+}
+
+.braun {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.lila {
+    background-color: darkorchid;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+}
