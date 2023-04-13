@@ -32,14 +32,11 @@ function showCountry(data) {
         html += "<div onClick='(\"" + element.region + "\")'>" + "Region: " + element.region + "</div>";
         html += "<div onClick='(\"" + element.surface_area + "\")'>" + "Surfacearea: " + element.surface_area + " km²" + "</div>";
         html += "<div onClick='(\"" + element.population + "\")'>" + "Population: " + (element.population * 1000) + " People" + "</div>";
-        html += "<div onClick='(\"" + element.unemployment + "\")'>" + "Unemployment: " + element.unemployment + " %" + "</div>";     
+        html += "<div onClick='(\"" + element.unemployment + "\")'>" + "Unemployment: " + element.unemployment + " %" + "</div>";
+        html += "<div onClick='(\"" + element.currency.name + "\")'>" + "Currency: " + element.currency.name + "</div>";
+        html += "<div onClick='(\"" + element.gdp + "\")'>" + "GDP: " + (element.gdp * 1000000) + " €" + "</div>";
     });
     document.getElementById("list").innerHTML = html;
 }
 
 registerEvents();
-
-
-
-
-
