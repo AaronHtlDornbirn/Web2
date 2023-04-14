@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.wrapper {
+    font-family: 'Oswald', sans-serif;
+    max-width: 100vw;
+    padding: 20px;
+}
+
+.name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    height: 50px;
+    color: #333;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(66, 177, 66);
+}
+
+.choice:hover {
+    background-color: #64727c;
+}
+
+.content {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+}
