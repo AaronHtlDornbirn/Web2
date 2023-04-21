@@ -27,14 +27,14 @@ function loadCountry(name) {
 function showCountry(data) {
     let html = "";
     data.forEach(element => {
-        html += "<div onClick='(\"" + element.name + "\")'>" + "Name: " + element.name + "</div>";
-        html += "<div onClick='(\"" + element.capital + "\")'>" + "Capital: " + element.capital + "</div>";
-        html += "<div onClick='(\"" + element.region + "\")'>" + "Region: " + element.region + "</div>";
-        html += "<div onClick='(\"" + element.surface_area + "\")'>" + "Surfacearea: " + element.surface_area + " km²" + "</div>";
-        html += "<div onClick='(\"" + element.population + "\")'>" + "Population: " + (element.population * 1000) + " People" + "</div>";
-        html += "<div onClick='(\"" + element.unemployment + "\")'>" + "Unemployment: " + element.unemployment + " %" + "</div>";
-        html += "<div onClick='(\"" + element.currency.name + "\")'>" + "Currency: " + element.currency.name + "</div>";
-        html += "<div onClick='(\"" + element.gdp + "\")'>" + "GDP: " + (element.gdp * 1000000) + " €" + "</div>";
+        html += "<div>" + "Name: " + element.name + "</div>";
+        html += "<div>" + "Capital: " + element.capital + "</div>";
+        html += "<div>" + "Region: " + element.region + "</div>";
+        html += "<div>" + "Surfacearea: " + element.surface_area + " km²" + "</div>";
+        html += "<div>" + "Population: " + (element.population * 1000) + " People" + "</div>";
+        html += "<div>" + "Unemployment: " + element.unemployment + " %" + "</div>";
+        html += "<div>" + "Currency: " + element.currency.name + "</div>";
+        html += "<div>" + "GDP: " + (element.gdp * 1000000) + " €" + "</div>";
     });
     document.getElementById("list").innerHTML = html;
 }
